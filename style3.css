@@ -19,7 +19,6 @@ nav {
   display: flex;
   background-color: #687274;
   justify-content: space-around;
-  /* padding: 20px 0; */
   height: 70px;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.85);
@@ -89,16 +88,15 @@ nav ul li a {
 .jumbotron {
   display: flex;
   padding: 20px;
-  /* height: 1000px; */
 }
 
 .about {
-  /* margin-right: -100px; */
+
   margin-top: 130px;
   color: #fff;
   margin-left: 20px;
   line-height: 50px;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.85); */
+
   border-radius: 5px;
   padding: 20px;
 }
@@ -147,14 +145,9 @@ button {
 }
 
 main {
-  /* background: #37c75f; */
+
   background-color: #14c545;
-  /* background: #005c97; */
-  /* background-image: radial-gradient(
-    circle farthest-corner at 10% 20%,
-    rgba(14, 174, 87, 1) 0%,
-    rgba(12, 116, 117, 1) 90%
-  ); */
+  
   height: 100%;
   margin: 20px;
   box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.85);
@@ -168,12 +161,7 @@ main {
   font-size: 50px;
 }
 
-/* .container {
-  padding-top: 40px;
-  margin: 50px;
-  display: flex;
-  flex-direction: column;
-} */
+
 article h2 {
   color: #14c545;
 }
@@ -185,7 +173,7 @@ article h2 {
   box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   background-color: #687274;
-  /* background-image: linear-gradient(112.1deg, rgba(32, 38, 57, 1) 11.4%, rgba(63, 76, 119, 1) 70.2%); */
+  
   display: flex;
   color: #fff;
 }
@@ -218,11 +206,7 @@ article h2 {
   border-radius: 10px;
   background-color: #687274;
   color: #fff;
-  /* background-image: radial-gradient(
-    circle 757px at 14.6% 44.8%,
-    rgba(60, 77, 115, 1) 27.7%,
-    rgba(0, 194, 209, 1) 95.9%
-  ); */
+ 
 }
 
 .img-1 {
@@ -244,7 +228,7 @@ article h2 {
 
 .profile {
   padding: 40px 30% 40px 30%;
-  /* background-color: red; */
+
 }
 
 .img-profile {
@@ -468,12 +452,12 @@ footer {
 
   .menu-toggle {
     display: flex;
-    /* margin-right: 50px;
-    padding-left: 10px; */
+   
   }
 
   .jumbotron {
     padding-left: 0;
+    padding-right: 0;
   }
 
   .about {
@@ -493,18 +477,6 @@ footer {
     height: 100%;
     position: static;
   }
-
-  /* .container {
-    display: block;
-    width: 100%;
-    margin: auto;
-    margin-top: 63px;
-    justify-content: center;
-    flex-direction: column;
-    background-color: red;
-    position: static;
-    padding: 0 20px 0 20px;
-  } */
 
   .profile {
     padding: 20px;
@@ -539,6 +511,6 @@ footer {
     width: 100%;
     margin: 0;
     border-radius: 0;
-    /* margin-bottom: 20px; */
+    
   }
 }
