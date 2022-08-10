@@ -541,6 +541,10 @@ footer {
     animation: card 4s;
   }
 
+  .img-2 {
+    display: none;
+  }
+  
   @keyframes card {
     0% {
       opacity: 0;
