@@ -457,7 +457,7 @@ footer {
 
   .jumbotron {
     padding-left: 0;
-    padding-right: 0;
+
   }
 
   .about {
@@ -471,6 +471,16 @@ footer {
   .robot {
     position: absolute;
     z-index: -2s;
+  }
+
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+
+  .contact button {
+    margin-bottom: 27px;
+    padding: 5px 20px 5px 20px;
   }
 
   main {
